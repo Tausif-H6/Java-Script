@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+  <div style="text-align: center;">
+    <button class="btn btn-success" style="size: 50px;" onclick="changeOnclick()">Click me !</button>
+    
+    <p id="t">The rain in SPAIN stays mainly in the plain</p>
+    <h1 id="one"></h1>
+  </div>
+    <script>
+        function changeOnclick(){
+            let sentence=document.getElementById("t").innerHTML;
+             document.getElementById("one").innerHTML="The words ends with ains are : "+sentence.match(/ain/gi);
+        } 
+
+    </script>
+    
+</body>
+</html>

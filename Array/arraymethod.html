@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="first">Hello My Friends</h1>
+    <script>
+        let fruits = ["Banana","Jackfruit","Pineapple","Orange"];
+        let r= fruits.join(" # ");
+        console.log(r);
+        fruits.pop();
+        console.log(fruits);
+
+        //Push method last e add kore
+        fruits.unshift("Watermalon");
+        console.log(fruits);
+        // delete fruits[0];
+        // console.log(fruits);
+
+        fruits.splice(1,0,"Bel","Kotbel");
+        
+        console.log(fruits);
+        //document.getElementById("first").innerHTML=fruits;
+    </script>
+</body>
+</html>
