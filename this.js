@@ -15,3 +15,4 @@ const person2={//Explicit this use korte hoile ki korte hoi
 
 console.log(person.fulname.call(person2));
 
+    
