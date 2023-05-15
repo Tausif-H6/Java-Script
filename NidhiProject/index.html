@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <script>
+        var from=null,start =0;
+        $(document).ready(function(){
+            alert('Jquery ready')
+        })
+       
+    </script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
+        overflow: hidden;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #messages {
+        height: 88vh;
+        overflow-x: hidden;
+        padding: 18px;
+        background-image: url('https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg');
+    }
+
+    form {
+        display: flex;
+    }
+
+    input {
+        font-size: 1.2rem;
+        padding: 10px;
+        margin: 10px 5px;
+        appearance: none;
+        -webkit-appearance: none;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+    #message{
+        flex: 2;
+    }
+</style>
+
+<body>
+    <div id="messages"></div>
+    <form>
+        <input type="text" id="message" autocomplete="off" autofocus placeholder="Type nessage... ">
+        <input type="submit" value="Send">
+    </form>
+</body>
+
+</html>

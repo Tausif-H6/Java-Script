@@ -1,8 +1,5 @@
 let a ="Tausif Hossain";
-for (let i of a) {
+for (let i of  a) {
     console.log(i);
 }
-
-
-
 

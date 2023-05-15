@@ -3,7 +3,7 @@ const sentence = "Learn with sumit is all about teaching web development skills 
 //how many sumith is used.
 let matches =sentence.match(/sumit/gi);
 let howManyTimesUsed=matches?matches.length:"Please try again";
-//console.log("Sumith is used : "+ matches+" "+ howManyTimesUsed );
+console.log("Sumith is used : "+ matches+" "+ howManyTimesUsed );
 
 
 //In which index we got the first sumit

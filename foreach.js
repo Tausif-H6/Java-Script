@@ -22,3 +22,5 @@ person["ROle"]="Software Engineer";
 console.log("Persion er length : "+ person[0]   );// Will provide a undifined statement
 
 console.log(Array.isArray(person));//check an array
+
+fruits.forEach((n)=>{console.log( n)})
