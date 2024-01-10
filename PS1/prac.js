@@ -14,7 +14,7 @@ function countVowels(sentence){
 }
 
 
-countVowels("I love Sabah matin");
+countVowels("I love Bangladesh");
 
 
 console.log(`Ddfdshfshbfsdkasdhsu`);
